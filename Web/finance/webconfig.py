@@ -1,11 +1,1 @@
 API_KEY=pk_dfc3936d31624b799b25f8a251ab1b6f
-
-CREATE TABLE 'history' (
-id INTEGER PRIMARY KEY,
-user_id INTEGER,
-symbol TEXT,
-shares INTEGER,
-pps INTEGER,
-date DATETIME DEFAULT CURRENT_TIMESTAMP,
-FOREIGN KEY ('user_id') REFERENCES users('id')
-);
