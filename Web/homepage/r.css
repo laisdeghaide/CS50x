@@ -1,0 +1,64 @@
+.big-divider {
+    height: 5px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.big-divider span {
+	display: block;
+	margin-left: 13.5%;
+	width: 75%;
+	height: 3px;
+	text-align: center;
+	background-color: rgb(71, 68, 75);
+}
+
+.col-md-4 {
+    margin-bottom: 20px;
+}
+
+.ingredients h4 {
+    font-family: "Cairo";
+    color:rgb(34, 140, 130);
+    font-style: italic;
+}
+
+.ingredients {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.ingredients li, .image li {
+    list-style: none;
+}
+
+.instructions h4 {
+    font-family: "Cairo";
+    color:rgb(34, 140, 130);
+    font-style: italic;
+}
+
+.instructions p {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+
+@media screen and (max-width:768px) {
+    .ingredients {
+        margin-left: 0;
+    }
+    .col-sm-12 {
+        margin-bottom: 0;
+    }
+}
+

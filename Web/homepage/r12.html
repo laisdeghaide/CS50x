@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Links-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="recipe.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <link href="r.css" rel="stylesheet">
+
+        <!--Favicons-->
+        <link href="assets/icon.svg" rel="icon">
+        <link href="assets/icon.svg" rel="apple-touch-icon">
+
+        <title>Easy Cook</title>
+    </head>
+    <body>
+
+        <nav>
+            <!-- ==== Desktop Navbar ==== -->
+            <div class="logo">
+                <h4><a href="index.html">Easy Cook</a></h4>
+            </div>
+            <ul class="nav-links">
+                <li class="active"><a href="index.html">Home</a></li>
+                    <li class="dropdown"><a href="">Recipes <span class="fa fa-angle-down"></span></a>
+                       <ul class="dropdown-content">
+                            <li><a href="recipes.html#salt">Salty</a></li>
+                            <li><a href="recipes.html#health">Healthy</a></li>
+                            <li><a href="recipes.html#sweet">Sweety</a></li>
+                            <li><a href="recipes.html#drink">Drink</a></li>
+                        </ul>
+                    </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <!-- End Desktop Navbar -->
+
+            <!-- ==== Mobile Navbar ==== -->
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <!-- End Mobile Navbar-->
+        </nav>
+
+        <!-- ==== Content ==== -->
+        <div class="recipes">
+            <div id="salt">
+                <h2>Aperol Spritz</h2>
+                <div class="divider"><span></span></div>
+
+                <div class="row">
+                    <div class="col-sm">
+                        <h5><strong>Servings:</strong> 1</h5>
+                    </div>
+                    <div class="col-sm">
+                        <h5><strong>Calories:</strong> 100cal</h5>
+                    </div>
+                    <div class="col-sm">
+                        <h5><strong>Ready in:</strong> 5min</h5>
+                    </div>
+                    <div class="col-sm">
+                        <h5><strong>Good for:</strong> Party</h5>
+                    </div>
+                </div>
+                <div class="big-divider"> <span></span></div>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 ingredients">
+                        <ul>
+                            <li><h4>Ingredients</h4></li>
+                            <li>2 oz. Aperol</li>
+                            <li>3 oz. prosecco</li>
+                            <li>2 oz. (or a splash, or a top off) club soda</li>
+                            <li>orange slices</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card">
+                            <img src="assets/r12.jpg">
+                        </div>
+                    </div>
+                     <div class="col-12 instructions">
+                        <h4>Instructions</h4>
+                        <p>
+                            Build Aperol, prosecco, and club soda in a wine glass over ice.
+                            Garnish with fresh orange slices in the glass.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ==== Footer ==== -->
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                     <form method="get">
+                        <h4>Get the latest recipes! <br>Subscribe to our newsletter</h4>
+                        <input type="email" placeholder="Email address" name="mail" required>
+                        <input type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-info">&copy; Designed by Laís Deghaide</p>
+            </div>
+        </div>
+        <!-- End Footer-->
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+nav {
+    background-color: black;
+}
+
+.row {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.recipes {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#salt {
+    padding-top: 20px;
+}
+
+#health {
+    padding-top: 50px;
+    background-color:  #a2b8b2;  /* #797e5c*/
+}
+
+#sweet {
+    padding-top: 50px;
+}
+
+#drink {
+    padding-top: 50px;
+    background-color:  #a2b8b2;  /* #797e5c*/
+}
+

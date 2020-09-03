@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Links-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".button").click(function(){
+                    $("input[type='text'], input[type='email'], textarea").val("");
+                });
+            });
+        </script>
+        <link href="styles.css" rel="stylesheet">
+        <link href="contact.css" rel="stylesheet">
+
+        <!--Favicons-->
+        <link href="assets/icon.svg" rel="icon">
+        <link href="assets/icon.svg" rel="apple-touch-icon">
+
+        <title>Easy Cook</title>
+    </head>
+    <body>
+
+        <nav>
+            <!-- ==== Desktop Navbar ==== -->
+            <div class="logo">
+                <h4><a href="index.html">Easy Cook</a></h4>
+            </div>
+            <ul class="nav-links">
+                <li class="active"><a href="index.html">Home</a></li>
+                <!--<div class="dropdown">
+                        <button>Recipes</button>
+                        <ul>
+                            <li><a href="recipes.html#salt">Salty</a></li>
+                            <li><a href="recipes.html#health">Healthy</a></li>
+                            <li><a href="recipes.html#sweet">Sweety</a></li>
+                            <li><a href="recipes.html#drink">Drink</a></li>
+                        </ul>
+                    </div>-->
+                    <li class="dropdown"><a href="">Recipes <span class="fa fa-angle-down"></span></a>
+                       <ul class="dropdown-content">
+                            <li><a href="recipes.html#salt">Salty</a></li>
+                            <li><a href="recipes.html#health">Healthy</a></li>
+                            <li><a href="recipes.html#sweet">Sweety</a></li>
+                            <li><a href="recipes.html#drink">Drink</a></li>
+                        </ul>
+                    </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <!-- End Desktop Navbar -->
+
+            <!-- ==== Mobile Navbar ==== -->
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <!-- End Mobile Navbar-->
+        </nav>
+
+        <!-- ==== Content ==== -->
+        <div class="contact">
+            <h1>Get in touch with us</h1>
+            <div class="divider"> <span></span></div>
+            <div class="info">
+                <h5>If you have any suggestions for improvement for our site, some delicious recipe or any questions, do not hesitate to contact us! <br>It will be a pleasure to chat with you</h5>
+                <div class="forms">
+                    <div class="top-form">
+                        <div class="inner-form">
+                            <input type="text" placeholder="Name" required>
+                        </div>
+                        <div class="inner-form">
+                            <input type="text" placeholder="Last Name" required>
+                        </div>
+                    </div>
+
+                    <div class="middle-form">
+                        <div class="inner-form">
+                           <input type="email" placeholder="Email address" name="mail" required>
+                        </div>
+                    </div>
+
+                    <div class="bottom-form">
+                        <div class="inner-form">
+                            <textarea placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="button">
+                        <input type="submit" value="Send">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ==== Footer ==== -->
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                     <form method="get">
+                        <h4>Get the latest recipes! <br>Subscribe to our newsletter</h4>
+                        <input type="email" placeholder="Email address" name="mail" required>
+                        <input type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-info">&copy; Designed by Laís Deghaide</p>
+            </div>
+        </div>
+        <!-- End Footer-->
+
+        <script src="script.js"></script>
+    </body>
+</html>

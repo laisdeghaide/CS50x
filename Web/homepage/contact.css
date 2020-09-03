@@ -1,0 +1,85 @@
+/*Contact*/
+.contact .h5 {
+    text-align: center;
+    color: #7e7e7e;
+}
+
+.contact {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    /*width: 100%;*/
+    background-color: #fafafa;
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+
+.info {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.forms {
+    width: 80%;
+    margin: 25px auto;
+}
+
+.top-form, .middle-form, .bottom-form {
+    width: 100%;
+    min-height: 65px;
+    margin: 10px 0;
+}
+
+.forms input[type=text], .forms input[type=email], .forms input[type=submit], .forms textarea {
+    padding: 15px 5px;
+    width: 100%;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 2px;
+    transition: all 0.2s ease;
+}
+
+.forms input[type="submit"] {
+    text-transform: uppercase;
+}
+
+.forms input:focus, .forms textarea:focus, .forms button:focus {
+    border-color: rgb(34, 140, 130);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.0125), 0 0 8px rgba(76, 161, 175, 0.5);
+}
+
+.top-form .inner-form {
+    width: 47.37%;
+    float: left;
+    margin-right: 5%;
+}
+
+.top-form .inner-form:last-of-type {
+    margin-right: 0;
+}
+
+.middle-form {
+    clear: both;
+}
+
+.bottom-form textarea {
+    height: 120px;
+}
+
+.button {
+    width: 200px;
+    padding: 10px 0;
+}
+
+::-webkit-input-placeholder, .forms input[type="submit"] {
+    font-family: 'Segoe UI';
+}
+
+@media screen and (max-width:760px) {
+    .forms {
+        margin: 25px auto 0;
+    }
+    .top-form .inner-form {
+        width: 100%;
+        margin: 5px 0;
+    }
+}

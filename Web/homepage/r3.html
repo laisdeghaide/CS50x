@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Links-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="recipe.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <link href="r.css" rel="stylesheet">
+
+        <!--Favicons-->
+        <link href="assets/icon.svg" rel="icon">
+        <link href="assets/icon.svg" rel="apple-touch-icon">
+
+        <title>Easy Cook</title>
+    </head>
+    <body>
+
+        <nav>
+            <!-- ==== Desktop Navbar ==== -->
+            <div class="logo">
+                <h4><a href="index.html">Easy Cook</a></h4>
+            </div>
+            <ul class="nav-links">
+                <li class="active"><a href="index.html">Home</a></li>
+                    <li class="dropdown"><a href="">Recipes <span class="fa fa-angle-down"></span></a>
+                       <ul class="dropdown-content">
+                            <li><a href="recipes.html#salt">Salty</a></li>
+                            <li><a href="recipes.html#health">Healthy</a></li>
+                            <li><a href="recipes.html#sweet">Sweety</a></li>
+                            <li><a href="recipes.html#drink">Drink</a></li>
+                        </ul>
+                    </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <!-- End Desktop Navbar -->
+
+            <!-- ==== Mobile Navbar ==== -->
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <!-- End Mobile Navbar-->
+        </nav>
+
+        <!-- ==== Content ==== -->
+        <div class="recipes">
+            <div id="salt">
+                <h2>Ground Beef Stroganoff</h2>
+                <div class="divider"><span></span></div>
+
+                <div class="row">
+                    <div class="col-sm">
+                        <h5><strong>Servings:</strong> 4</h5>
+                    </div>
+                    <div class="col-sm">
+                        <h5><strong>Calories:</strong> 408 kcal</h5>
+                    </div>
+                    <div class="col-sm">
+                        <h5><strong>Ready in:</strong> 45 min</h5>
+                    </div>
+                    <div class="col-sm">
+                        <h5><strong>Good for:</strong> Dinner</h5>
+                    </div>
+                </div>
+                <div class="big-divider"> <span></span></div>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 ingredients">
+                        <ul>
+                            <li><h4>Ingredients</h4></li>
+                            <li>2 small onions (diced)</li>
+                            <li>2 cloves garlic (minced)</li>
+                            <li>3 tablespoons butter</li>
+                            <li>1 pound lean ground beef</li>
+                            <li>2 tablespoons flour</li>
+                            <li>1 teaspoon salt</li>
+                            <li>½ teaspoon ground black pepper</li>
+                            <li>4 cups fresh mushrooms (sliced)</li>
+                            <li>1 cup beef broth</li>
+                            <li>1 tablespoon Worcestershire sauce</li>
+                            <li>1 cup sour cream</li>
+                            <li>cooked egg noodles</li>
+                            <li>Fresh parsley for garnish</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card">
+                            <img src="assets/r3.jpg">
+                        </div>
+                    </div>
+                     <div class="col-12 instructions">
+                        <h4>Instructions</h4>
+                        <p>
+                            Melt the butter in a large skillet over medium high heat.
+                            Add the onion and garlic and cook until the onion is translucent, about 3 minutes.
+                            Add the ground beef and cook until no pink is left.
+                            Stir in the flour, salt, pepper and mushrooms. Cook for 5 minutes stirring frequently.
+                            Stir in the beef broth and Worcestershire sauce and simmer uncovered for 10 minutes.
+                            Stir in the sour cream and heat through.
+                            Cook the egg noodle according to the package directions.
+                            Serve stroganoff over a bed of egg noodles garnished with chopped fresh parsley.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ==== Footer ==== -->
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                     <form method="get">
+                        <h4>Get the latest recipes! <br>Subscribe to our newsletter</h4>
+                        <input type="email" placeholder="Email address" name="mail" required>
+                        <input type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-info">&copy; Designed by Laís Deghaide</p>
+            </div>
+        </div>
+        <!-- End Footer-->
+
+        <script src="script.js"></script>
+    </body>
+</html>
