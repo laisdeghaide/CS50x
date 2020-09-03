@@ -1,6 +1,6 @@
 ## [**This is CS50x**](https://cs50.harvard.edu/x/2020/) 
 
-My solutions (from 1 to 7) to Harvard University's <a href='https://www.edx.org/course/cs50s-introduction-to-computer-science'>2020 CS50 introduction course</a> assignments. <br>
+My solutions (from 1 to 8) to Harvard University's <a href='https://www.edx.org/course/cs50s-introduction-to-computer-science'>2020 CS50 introduction course</a> assignments. <br>
 You can find the materials for the course <a href='https://cs50.harvard.edu/x/2020/'>here</a>.<br>
 
 ## Disclaimer:
@@ -96,6 +96,13 @@ Please, consider doing your own problem sets before checking mine. [**Academic H
     <ul>  
       <li><a href= 'https://github.com/laisdeghaide/CS50x/tree/master/3.%20SQL/pset7/movies'>movies</a></li>
       <li><a href= 'https://github.com/laisdeghaide/CS50x/tree/master/3.%20SQL/pset7/houses'>houses</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href='https://github.com/laisdeghaide/CS50x/tree/master/3.%20SQL/pset7'>Problem Set 8</a>: <a href='https://cs50.harvard.edu/x/2020/tracks/web/'> Assignments 8 (Web Track)</a>
+    <ul>  
+      <li><a href= 'https://github.com/laisdeghaide/CS50x/tree/master/Web/finance'>finance</a></li>
+      <li><a href= 'https://github.com/laisdeghaide/CS50x/tree/master/Web/homepage'>homepage</a></li>
     </ul>
   </li>
 </ul>
